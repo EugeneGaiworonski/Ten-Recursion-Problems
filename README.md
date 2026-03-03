@@ -24,3 +24,8 @@ POWER.C
 --
 
 Description: Calculates the result using a recursive power function
+
+REVERSE.c
+--
+
+Reads a string from the user and prints it in reverse order using recursion
