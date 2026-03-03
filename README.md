@@ -13,7 +13,7 @@ POWER.C
 
 Description: Calculates the result using a recursive power function
 
-FACT.c
+FACT.C
 --
 
 Description: Calculates the factorial of a number using recursion and displays the result
