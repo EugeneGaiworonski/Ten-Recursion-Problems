@@ -25,11 +25,11 @@
 #include <string.h>
 
 typedef struct array {
-		int* val = NULL;
-		int size = 0;
+		int* val;
+		int size;
 	} Int;
 	
-	Int a;
+	Int a = {NULL, 0} ;
 	int buffer = {0};
 	char s[] ={0};
 	char buf[12] = {0};
@@ -37,8 +37,7 @@ typedef struct array {
 void lst2str(char* result, int i);
 
 int main(void) {
-	
-	
+		
 	a.val = (int*) malloc(a.size * sizeof(int));
 	
 	do {
